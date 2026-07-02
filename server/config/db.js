@@ -5,7 +5,7 @@ const connectDB = async () => {
   try {
     console.log('Connecting to MongoDB...');
     await mongoose.connect(mongoURI, {
-      serverSelectionTimeoutMS: 3000 // Quick timeout to fallback fast
+      serverSelectionTimeoutMS: 15000 // Give Atlas enough time to connect
     });
     console.log('MongoDB Connected Successfully.');
     process.env.USE_MOCK_DB = 'false';

@@ -35,9 +35,8 @@
     "roomCharges": 1800,
     "tax": 702.75,
     "total": 5387.75,
-    "status": "Paid",
-    "date": "2026-07-01",
-    "updatedAt": "2026-07-02T06:29:27.573Z"
+    "status": "Pending",
+    "date": "2026-07-01"
   },
   {
     "_id": "b-4",

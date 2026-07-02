@@ -1,7 +1,9 @@
+require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
 const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
 const { getSeedData } = require('./seedData');
+
 
 // Models
 const User = require('../models/User');
@@ -19,6 +21,7 @@ const seedMongoDB = async () => {
   const mongoURI = process.env.MONGODB_URI || 'mongodb://localhost:27017/medicare';
   try {
     console.log('Connecting to MongoDB for seeding...');
+    console.log("Mongo URI:", mongoURI);
     await mongoose.connect(mongoURI);
     console.log('Connected to MongoDB. Clearing old data...');
 

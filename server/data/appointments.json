@@ -23,9 +23,8 @@
     "doctor": "d-g4",
     "date": "2026-07-02",
     "time": "02:00 PM",
-    "status": "Confirmed",
-    "reason": "Blood sugar spike and fatigue",
-    "updatedAt": "2026-07-02T06:27:04.530Z"
+    "status": "Pending",
+    "reason": "Blood sugar spike and fatigue"
   },
   {
     "_id": "app-4",
@@ -224,16 +223,5 @@
     "time": "09:30 AM",
     "status": "Cancelled",
     "reason": "Chronic sinusitis polyp removal pre-evaluation"
-  },
-  {
-    "_id": "8r56jdubomr34hy6s",
-    "patient": "p-1",
-    "doctor": "d-e4",
-    "date": "2026-07-16",
-    "time": "10:00 AM",
-    "status": "Pending",
-    "reason": "",
-    "createdAt": "2026-07-02T06:28:07.636Z",
-    "updatedAt": "2026-07-02T06:28:07.636Z"
   }
 ]

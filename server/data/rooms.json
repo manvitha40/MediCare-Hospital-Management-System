@@ -3,8 +3,7 @@
     "roomNumber": "101",
     "roomType": "General",
     "status": "Available",
-    "patient": null,
-    "updatedAt": "2026-07-02T06:29:11.276Z"
+    "patient": null
   },
   {
     "roomNumber": "102",
