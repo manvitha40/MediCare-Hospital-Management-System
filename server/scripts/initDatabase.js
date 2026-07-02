@@ -1,6 +1,3 @@
-require('dotenv').config({ path: require('path').join(__dirname, '..', '.env') });
-
-const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 // Models
@@ -13,11 +10,9 @@ const Medicine = require('../models/Medicine');
 
 const MONGO_URI = process.env.MONGODB_URI;
 
-async function initDatabase() {
+exports.initDatabase = async (req, res) => {
   try {
-    console.log("Connecting to MongoDB...");
-    await mongoose.connect(MONGO_URI);
-    console.log("MongoDB Connected");
+    
 
     // Clear Existing Data
     await User.deleteMany({});
@@ -88,12 +83,16 @@ async function initDatabase() {
 
     console.log("Initialization Part 1 Completed.");
 
-    process.exit();
+    return res.json({
+    success: true,
+    message: "Database initialized successfully"
+});
 
   } catch (err) {
     console.error(err);
-    process.exit(1);
+    return res.status(500).json({
+    success: false,
+    message: err.message
+});
   }
 }
-
-initDatabase();
