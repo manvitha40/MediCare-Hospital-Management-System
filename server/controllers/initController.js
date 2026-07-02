@@ -73,9 +73,154 @@ exports.initDatabase = async (req, res) => {
       profileImage: ""
     });
 
+    // =======================
+// Departments
+// =======================
+
+await Department.insertMany([
+  {
+    name: "Cardiology",
+    description: "Heart and cardiovascular treatments"
+  },
+  {
+    name: "Neurology",
+    description: "Brain and nervous system"
+  },
+  {
+    name: "Orthopedics",
+    description: "Bones and joints"
+  },
+  {
+    name: "Pediatrics",
+    description: "Children healthcare"
+  },
+  {
+    name: "Dermatology",
+    description: "Skin treatments"
+  },
+  {
+    name: "General Medicine",
+    description: "General consultation"
+  }
+]);
+
+console.log("Departments Created");
+
+await Doctor.insertMany([
+  {
+    user: doctorUser1._id,
+    name: doctorUser1.name,
+    department: "Cardiology",
+    experience: 12,
+    qualification: "MD Cardiology",
+    fee: 1000,
+    rating: 4.8,
+    reviewCount: 150,
+    availableDays: ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    availableTime: "09:00 AM - 05:00 PM"
+  },
+  {
+    user: doctorUser2._id,
+    name: doctorUser2.name,
+    department: "Neurology",
+    experience: 9,
+    qualification: "MD Neurology",
+    fee: 1200,
+    rating: 4.7,
+    reviewCount: 120,
+    availableDays: ["Monday","Wednesday","Friday"],
+    availableTime: "10:00 AM - 06:00 PM"
+  }
+]);
+
+console.log("Doctors Created");
+
+await Patient.insertMany([
+  {
+    user: patientUser1._id,
+    name: patientUser1.name,
+    age: 28,
+    gender: "Male",
+    bloodGroup: "O+",
+    address: "Hyderabad",
+    medicalHistory: []
+  },
+  {
+    user: patientUser2._id,
+    name: patientUser2.name,
+    age: 24,
+    gender: "Female",
+    bloodGroup: "A+",
+    address: "Vijayawada",
+    medicalHistory: []
+  }
+]);
+
+console.log("Patients Created");
+
+await Room.insertMany([
+  {
+    roomNumber: "101",
+    roomType: "General",
+    status: "Available"
+  },
+  {
+    roomNumber: "102",
+    roomType: "General",
+    status: "Available"
+  },
+  {
+    roomNumber: "201",
+    roomType: "Private",
+    status: "Available"
+  },
+  {
+    roomNumber: "301",
+    roomType: "ICU",
+    status: "Available"
+  }
+]);
+
+console.log("Rooms Created");
+
+await Medicine.insertMany([
+  {
+    name: "Paracetamol",
+    price: 20,
+    stock: 500,
+    expiryDate: "2028-12-31",
+    supplier: "Sun Pharma"
+  },
+  {
+    name: "Amoxicillin",
+    price: 65,
+    stock: 300,
+    expiryDate: "2028-09-10",
+    supplier: "Cipla"
+  },
+  {
+    name: "Ibuprofen",
+    price: 35,
+    stock: 250,
+    expiryDate: "2028-11-01",
+    supplier: "Dr. Reddy's"
+  },
+  {
+    name: "Vitamin C",
+    price: 15,
+    stock: 600,
+    expiryDate: "2029-01-01",
+    supplier: "Himalaya"
+  }
+]);
+
+console.log("Medicines Created");
+
+
+
     return res.status(200).json({
       success: true,
-      message: "Users initialized successfully.",
+      message: "Hospital database initialized successfully.",
       users: {
         admin: admin.email,
         doctor1: doctorUser1.email,
