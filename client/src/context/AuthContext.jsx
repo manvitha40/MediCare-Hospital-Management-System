@@ -1,5 +1,5 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
-
+const API_BASE = import.meta.env.VITE_API_URL;
 const AuthContext = createContext(null);
 
 export const AuthProvider = ({ children }) => {
@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
       }
 
       try {
-        const response = await fetch('/api/auth/me', {
+        const response = await fetch(`${API_BASE}/api/auth/me`, {
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -42,7 +42,7 @@ export const AuthProvider = ({ children }) => {
   }, [token]);
 
   const login = async (email, password) => {
-    const response = await fetch('/api/auth/login', {
+    const response = await fetch(`${API_BASE}/api/auth/login`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email, password })
@@ -62,7 +62,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const register = async (formData) => {
-    const response = await fetch('/api/auth/register', {
+    const response = await fetch(`${API_BASE}/api/auth/register`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData)
@@ -82,7 +82,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const updateProfile = async (profileData) => {
-    const response = await fetch('/api/auth/profile', {
+    const response = await fetch(`${API_BASE}/api/auth/profile`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',
