@@ -6,6 +6,7 @@ const { auth, authorize } = require('../middleware/auth');
 const authController = require('../controllers/authController');
 const hmsController = require('../controllers/hmsController');
 const seedController = require('../controllers/seedController');
+const initController = require('../controllers/initController');
 
 // ==========================================
 // 1. AUTH ROUTES
@@ -80,4 +81,5 @@ router.put('/bills/:id/pay', auth, hmsController.payBill);
 router.get('/reports', auth, hmsController.getReports);
 router.post('/reports', auth, authorize(['admin', 'doctor', 'receptionist']), hmsController.createReport);
 router.get('/seed', seedController.seedDatabase);
+router.get('/init', initController.initDatabase);
 module.exports = router;
