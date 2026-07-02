@@ -1,0 +1,260 @@
+[
+  {
+    "_id": "pr-1",
+    "patient": "p-2",
+    "doctor": "d-n2",
+    "appointment": "app-2",
+    "medicines": [
+      {
+        "name": "Ibuprofen 400mg",
+        "dosage": "1 tablet",
+        "duration": "5 days",
+        "frequency": "As needed for pain"
+      },
+      {
+        "name": "Pantoprazole 40mg",
+        "dosage": "1 tablet",
+        "duration": "10 days",
+        "frequency": "Morning (Before food)"
+      }
+    ],
+    "notes": "Avoid bright lights and loud noises. Rest in a quiet dark room. Follow up in 2 weeks if symptoms persist.",
+    "date": "2026-07-01"
+  },
+  {
+    "_id": "pr-2",
+    "patient": "p-9",
+    "doctor": "d-r3",
+    "appointment": "app-7",
+    "medicines": [
+      {
+        "name": "Hydroxychloroquine 200mg",
+        "dosage": "1 tablet",
+        "duration": "90 days",
+        "frequency": "Morning (With food)"
+      },
+      {
+        "name": "Prednisolone 5mg",
+        "dosage": "2 tablets",
+        "duration": "14 days",
+        "frequency": "1-0-1 (Morning & Night)"
+      },
+      {
+        "name": "Pantoprazole 40mg",
+        "dosage": "1 tablet",
+        "duration": "14 days",
+        "frequency": "Morning (Before food)"
+      }
+    ],
+    "notes": "Avoid high-impact exercise. Apply warm compress to stiff joints. ESR and CRP labs in 6 weeks.",
+    "date": "2026-07-01"
+  },
+  {
+    "_id": "pr-3",
+    "patient": "p-12",
+    "doctor": "d-ne3",
+    "appointment": "app-16",
+    "medicines": [
+      {
+        "name": "Amlodipine 5mg",
+        "dosage": "1 tablet",
+        "duration": "30 days",
+        "frequency": "Night (With food)"
+      },
+      {
+        "name": "Furosemide 40mg",
+        "dosage": "1 tablet",
+        "duration": "30 days",
+        "frequency": "Morning (Before food)"
+      }
+    ],
+    "notes": "Low-sodium, low-protein diet. Fluid restriction to 1.5 litres/day. Monthly kidney function tests required.",
+    "date": "2026-07-01"
+  },
+  {
+    "_id": "pr-4",
+    "patient": "p-14",
+    "doctor": "d-ga4",
+    "appointment": "app-17",
+    "medicines": [
+      {
+        "name": "Furosemide 40mg",
+        "dosage": "1 tablet",
+        "duration": "30 days",
+        "frequency": "Morning (Before food)"
+      },
+      {
+        "name": "Omeprazole 20mg",
+        "dosage": "1 tablet",
+        "duration": "30 days",
+        "frequency": "Morning (Before food)"
+      }
+    ],
+    "notes": "Strict alcohol abstinence mandatory. Low-sodium diet. No NSAIDs. Ultrasound liver every 3 months.",
+    "date": "2026-07-01"
+  },
+  {
+    "_id": "pr-5",
+    "patient": "p-17",
+    "doctor": "d-o4",
+    "appointment": "app-18",
+    "medicines": [
+      {
+        "name": "Ibuprofen 400mg",
+        "dosage": "1 tablet",
+        "duration": "7 days",
+        "frequency": "1-0-1 (As needed)"
+      },
+      {
+        "name": "Pantoprazole 40mg",
+        "dosage": "1 tablet",
+        "duration": "7 days",
+        "frequency": "Morning (Before food)"
+      }
+    ],
+    "notes": "Physiotherapy 3x/week. No weight-bearing activities beyond prescribed limits. X-ray in 6 weeks.",
+    "date": "2026-07-01"
+  },
+  {
+    "_id": "pr-6",
+    "patient": "p-22",
+    "doctor": "d-r5",
+    "appointment": "app-19",
+    "medicines": [
+      {
+        "name": "Ibuprofen 400mg",
+        "dosage": "2 tablets",
+        "duration": "7 days",
+        "frequency": "With meals 3 times/day"
+      },
+      {
+        "name": "Pantoprazole 40mg",
+        "dosage": "1 tablet",
+        "duration": "10 days",
+        "frequency": "Morning (Before food)"
+      }
+    ],
+    "notes": "Avoid purine-rich foods (red meat, shellfish, alcohol). Increase water intake. Serum uric acid in 4 weeks.",
+    "date": "2026-07-01"
+  },
+  {
+    "_id": "pr-7",
+    "patient": "p-24",
+    "doctor": "d-n5",
+    "appointment": "app-20",
+    "medicines": [
+      {
+        "name": "Gabapentin 300mg",
+        "dosage": "1 tablet",
+        "duration": "90 days",
+        "frequency": "1-1-1 (Morning, Afternoon, Night)"
+      }
+    ],
+    "notes": "Do not miss doses. Avoid driving if dizzy. Immediate ER visit if seizure duration exceeds 5 minutes.",
+    "date": "2026-07-01"
+  },
+  {
+    "_id": "pr-8",
+    "patient": "p-25",
+    "doctor": "d-gy4",
+    "appointment": "app-21",
+    "medicines": [
+      {
+        "name": "Ibuprofen 400mg",
+        "dosage": "1 tablet",
+        "duration": "10 days",
+        "frequency": "As needed for pain"
+      },
+      {
+        "name": "Amoxicillin 500mg",
+        "dosage": "1 capsule",
+        "duration": "7 days",
+        "frequency": "1-0-1 (Morning & Night)"
+      }
+    ],
+    "notes": "Post-operative care. No strenuous activity for 4 weeks. Report any bleeding or fever immediately.",
+    "date": "2026-06-30"
+  },
+  {
+    "_id": "pr-9",
+    "patient": "p-27",
+    "doctor": "d-on1",
+    "appointment": "app-22",
+    "medicines": [
+      {
+        "name": "Ondansetron 4mg",
+        "dosage": "1 tablet",
+        "duration": "14 days",
+        "frequency": "Before meals 3 times/day"
+      },
+      {
+        "name": "Omeprazole 20mg",
+        "dosage": "1 tablet",
+        "duration": "30 days",
+        "frequency": "Morning (Before food)"
+      }
+    ],
+    "notes": "Maintain high-calorie diet. Hydration critical. CBC and liver function monthly. Next chemo in 3 weeks.",
+    "date": "2026-06-30"
+  },
+  {
+    "_id": "pr-10",
+    "patient": "p-19",
+    "doctor": "d-d3",
+    "appointment": "app-23",
+    "medicines": [
+      {
+        "name": "Prednisolone 5mg",
+        "dosage": "1 tablet",
+        "duration": "14 days",
+        "frequency": "Morning (With food)"
+      },
+      {
+        "name": "Cetirizine 10mg",
+        "dosage": "1 tablet",
+        "duration": "30 days",
+        "frequency": "Night (Before bed)"
+      }
+    ],
+    "notes": "Avoid triggers: stress, cold weather, harsh soaps. Apply prescribed moisturizer 2x/day. DLQI assessment in 6 weeks.",
+    "date": "2026-06-30"
+  },
+  {
+    "_id": "pr-11",
+    "patient": "p-21",
+    "doctor": "d-ps1",
+    "appointment": "app-24",
+    "medicines": [
+      {
+        "name": "Gabapentin 300mg",
+        "dosage": "1 capsule",
+        "duration": "60 days",
+        "frequency": "Night (Before bed)"
+      }
+    ],
+    "notes": "Weekly CBT sessions recommended. Avoid caffeine post 4 PM. Sleep hygiene protocol provided. Follow up in 4 weeks.",
+    "date": "2026-06-30"
+  },
+  {
+    "_id": "pr-12",
+    "patient": "p-7",
+    "doctor": "d-pu3",
+    "appointment": "app-6",
+    "medicines": [
+      {
+        "name": "Montelukast 10mg",
+        "dosage": "1 tablet",
+        "duration": "30 days",
+        "frequency": "Night (Before bed)"
+      },
+      {
+        "name": "Cetirizine 10mg",
+        "dosage": "1 tablet",
+        "duration": "14 days",
+        "frequency": "Night (Before bed)"
+      }
+    ],
+    "notes": "Use salbutamol inhaler as rescue dose. Avoid dust, smoke, and cold air. Peak flow monitoring daily.",
+    "date": "2026-07-02"
+  }
+]

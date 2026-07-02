@@ -1,0 +1,123 @@
+[
+  {
+    "roomNumber": "101",
+    "roomType": "General",
+    "status": "Available",
+    "patient": null,
+    "updatedAt": "2026-07-02T06:29:11.276Z"
+  },
+  {
+    "roomNumber": "102",
+    "roomType": "General",
+    "status": "Occupied",
+    "patient": "p-4"
+  },
+  {
+    "roomNumber": "103",
+    "roomType": "General",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "104",
+    "roomType": "General",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "105",
+    "roomType": "General",
+    "status": "Occupied",
+    "patient": "p-8"
+  },
+  {
+    "roomNumber": "201",
+    "roomType": "Semi-Private",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "202",
+    "roomType": "Semi-Private",
+    "status": "Occupied",
+    "patient": "p-12"
+  },
+  {
+    "roomNumber": "203",
+    "roomType": "Semi-Private",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "204",
+    "roomType": "Semi-Private",
+    "status": "Occupied",
+    "patient": "p-20"
+  },
+  {
+    "roomNumber": "205",
+    "roomType": "Semi-Private",
+    "status": "Maintenance",
+    "patient": null
+  },
+  {
+    "roomNumber": "301",
+    "roomType": "Private",
+    "status": "Occupied",
+    "patient": "p-2"
+  },
+  {
+    "roomNumber": "302",
+    "roomType": "Private",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "303",
+    "roomType": "Private",
+    "status": "Occupied",
+    "patient": "p-27"
+  },
+  {
+    "roomNumber": "304",
+    "roomType": "Private",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "305",
+    "roomType": "Private",
+    "status": "Occupied",
+    "patient": "p-9"
+  },
+  {
+    "roomNumber": "401",
+    "roomType": "ICU",
+    "status": "Occupied",
+    "patient": "p-8"
+  },
+  {
+    "roomNumber": "402",
+    "roomType": "ICU",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "403",
+    "roomType": "ICU",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "501",
+    "roomType": "ICU",
+    "status": "Available",
+    "patient": null
+  },
+  {
+    "roomNumber": "502",
+    "roomType": "ICU",
+    "status": "Maintenance",
+    "patient": null
+  }
+]

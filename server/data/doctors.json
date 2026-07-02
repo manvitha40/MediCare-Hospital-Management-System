@@ -1,0 +1,1450 @@
+[
+  {
+    "_id": "d-c1",
+    "user": "u-doc-c1",
+    "name": "Dr. Arjun Mehta",
+    "department": "Cardiology",
+    "experience": 18,
+    "qualification": "DM (Cardiology), MD, FACC",
+    "fee": 1200,
+    "rating": 4.9,
+    "reviewCount": 324,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-c2",
+    "user": "u-doc-c2",
+    "name": "Dr. Priya Sharma",
+    "department": "Cardiology",
+    "experience": 14,
+    "qualification": "DM (Cardiology), MD",
+    "fee": 1000,
+    "rating": 4.7,
+    "reviewCount": 218,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-c3",
+    "user": "u-doc-c3",
+    "name": "Dr. Rajiv Nair",
+    "department": "Cardiology",
+    "experience": 22,
+    "qualification": "DM (Cardiology), FRCP",
+    "fee": 1500,
+    "rating": 4.8,
+    "reviewCount": 491,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-c4",
+    "user": "u-doc-c4",
+    "name": "Dr. Sunita Rao",
+    "department": "Cardiology",
+    "experience": 9,
+    "qualification": "DM (Cardiology), MD",
+    "fee": 800,
+    "rating": 4.5,
+    "reviewCount": 142,
+    "availableDays": [
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-c5",
+    "user": "u-doc-c5",
+    "name": "Dr. Vikram Patel",
+    "department": "Cardiology",
+    "experience": 12,
+    "qualification": "MD, FACC, Interventional Cardiology",
+    "fee": 1100,
+    "rating": 4.6,
+    "reviewCount": 187,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTime": "11:00 AM - 05:00 PM"
+  },
+  {
+    "_id": "d-n1",
+    "user": "u-doc-n1",
+    "name": "Dr. Shalini Joshi",
+    "department": "Neurology",
+    "experience": 15,
+    "qualification": "DM (Neurology), MD",
+    "fee": 1100,
+    "rating": 4.8,
+    "reviewCount": 276,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "09:00 AM - 03:00 PM"
+  },
+  {
+    "_id": "d-n2",
+    "user": "u-doc-n2",
+    "name": "Dr. Ravi Kumar",
+    "department": "Neurology",
+    "experience": 19,
+    "qualification": "DM (Neurology), FRCP",
+    "fee": 1300,
+    "rating": 4.9,
+    "reviewCount": 412,
+    "availableDays": [
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-n3",
+    "user": "u-doc-n3",
+    "name": "Dr. Ananya Iyer",
+    "department": "Neurology",
+    "experience": 11,
+    "qualification": "DM (Neurology), MD",
+    "fee": 900,
+    "rating": 4.6,
+    "reviewCount": 163,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-n4",
+    "user": "u-doc-n4",
+    "name": "Dr. Suresh Pillai",
+    "department": "Neurology",
+    "experience": 25,
+    "qualification": "DM (Neurology), FAAN, MD",
+    "fee": 1800,
+    "rating": 5,
+    "reviewCount": 589,
+    "availableDays": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-n5",
+    "user": "u-doc-n5",
+    "name": "Dr. Meera Krishnan",
+    "department": "Neurology",
+    "experience": 7,
+    "qualification": "DM (Neurology), MD",
+    "fee": 750,
+    "rating": 4.4,
+    "reviewCount": 98,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-o1",
+    "user": "u-doc-o1",
+    "name": "Dr. Kiran Desai",
+    "department": "Orthopedics",
+    "experience": 16,
+    "qualification": "MS (Ortho), DNB, FRCS",
+    "fee": 1000,
+    "rating": 4.7,
+    "reviewCount": 302,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-o2",
+    "user": "u-doc-o2",
+    "name": "Dr. Nikhil Joshi",
+    "department": "Orthopedics",
+    "experience": 12,
+    "qualification": "MS (Ortho), Fellowship in Joint Replacement",
+    "fee": 1200,
+    "rating": 4.8,
+    "reviewCount": 241,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 05:00 PM"
+  },
+  {
+    "_id": "d-o3",
+    "user": "u-doc-o3",
+    "name": "Dr. Pooja Singh",
+    "department": "Orthopedics",
+    "experience": 8,
+    "qualification": "MS (Ortho), DNB",
+    "fee": 800,
+    "rating": 4.5,
+    "reviewCount": 117,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "11:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-o4",
+    "user": "u-doc-o4",
+    "name": "Dr. Aditya Verma",
+    "department": "Orthopedics",
+    "experience": 20,
+    "qualification": "MS (Ortho), FRCS, Sports Medicine",
+    "fee": 1500,
+    "rating": 4.9,
+    "reviewCount": 443,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-o5",
+    "user": "u-doc-o5",
+    "name": "Dr. Lakshmi Reddy",
+    "department": "Orthopedics",
+    "experience": 10,
+    "qualification": "MS (Ortho), Spine Surgery Fellowship",
+    "fee": 950,
+    "rating": 4.6,
+    "reviewCount": 178,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-e1",
+    "user": "u-doc-e1",
+    "name": "Dr. Amitabh Ghosh",
+    "department": "ENT",
+    "experience": 17,
+    "qualification": "MS (ENT), FRCS (ORL-HNS)",
+    "fee": 900,
+    "rating": 4.7,
+    "reviewCount": 289,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 03:00 PM"
+  },
+  {
+    "_id": "d-e2",
+    "user": "u-doc-e2",
+    "name": "Dr. Deepa Menon",
+    "department": "ENT",
+    "experience": 10,
+    "qualification": "MS (ENT), DNB",
+    "fee": 700,
+    "rating": 4.5,
+    "reviewCount": 156,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-e3",
+    "user": "u-doc-e3",
+    "name": "Dr. Farhan Qureshi",
+    "department": "ENT",
+    "experience": 13,
+    "qualification": "MS (ENT), Head & Neck Surgery",
+    "fee": 850,
+    "rating": 4.6,
+    "reviewCount": 204,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-e4",
+    "user": "u-doc-e4",
+    "name": "Dr. Geeta Nambiar",
+    "department": "ENT",
+    "experience": 21,
+    "qualification": "MS (ENT), Cochlear Implant Surgeon",
+    "fee": 1400,
+    "rating": 4.9,
+    "reviewCount": 367,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-e5",
+    "user": "u-doc-e5",
+    "name": "Dr. Harish Tiwari",
+    "department": "ENT",
+    "experience": 6,
+    "qualification": "MS (ENT), DNB",
+    "fee": 600,
+    "rating": 4.3,
+    "reviewCount": 87,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-op1",
+    "user": "u-doc-op1",
+    "name": "Dr. Isha Kapoor",
+    "department": "Ophthalmology",
+    "experience": 14,
+    "qualification": "MS (Ophth), DOMS, Cataract & LASIK Surgeon",
+    "fee": 950,
+    "rating": 4.8,
+    "reviewCount": 312,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-op2",
+    "user": "u-doc-op2",
+    "name": "Dr. Jagannath Rao",
+    "department": "Ophthalmology",
+    "experience": 20,
+    "qualification": "MS (Ophth), Vitreoretinal Surgery",
+    "fee": 1300,
+    "rating": 4.9,
+    "reviewCount": 428,
+    "availableDays": [
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-op3",
+    "user": "u-doc-op3",
+    "name": "Dr. Kavitha Anand",
+    "department": "Ophthalmology",
+    "experience": 9,
+    "qualification": "MS (Ophth), DNB",
+    "fee": 800,
+    "rating": 4.5,
+    "reviewCount": 131,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "11:00 AM - 05:00 PM"
+  },
+  {
+    "_id": "d-op4",
+    "user": "u-doc-op4",
+    "name": "Dr. Lalit Choudhary",
+    "department": "Ophthalmology",
+    "experience": 16,
+    "qualification": "MS (Ophth), Glaucoma Specialist",
+    "fee": 1100,
+    "rating": 4.7,
+    "reviewCount": 267,
+    "availableDays": [
+      "Wednesday",
+      "Friday",
+      "Saturday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-op5",
+    "user": "u-doc-op5",
+    "name": "Dr. Madhuri Shah",
+    "department": "Ophthalmology",
+    "experience": 11,
+    "qualification": "MS (Ophth), Cornea & External Diseases",
+    "fee": 900,
+    "rating": 4.6,
+    "reviewCount": 189,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-d1",
+    "user": "u-doc-d1",
+    "name": "Dr. Nalini Bose",
+    "department": "Dermatology",
+    "experience": 13,
+    "qualification": "MD (Dermatology), DVD",
+    "fee": 850,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 03:00 PM"
+  },
+  {
+    "_id": "d-d2",
+    "user": "u-doc-d2",
+    "name": "Dr. Omar Sheikh",
+    "department": "Dermatology",
+    "experience": 8,
+    "qualification": "MD (Dermatology), Fellowship in Cosmetic Derm",
+    "fee": 1000,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 05:00 PM"
+  },
+  {
+    "_id": "d-d3",
+    "user": "u-doc-d3",
+    "name": "Dr. Padma Venkat",
+    "department": "Dermatology",
+    "experience": 19,
+    "qualification": "MD (Dermatology), FRCP",
+    "fee": 1200,
+    "rating": 4.8,
+    "reviewCount": 345,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-d4",
+    "user": "u-doc-d4",
+    "name": "Dr. Qasim Ali",
+    "department": "Dermatology",
+    "experience": 6,
+    "qualification": "MD (Dermatology), Trichology Certificate",
+    "fee": 700,
+    "rating": 4.3,
+    "reviewCount": 92,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-d5",
+    "user": "u-doc-d5",
+    "name": "Dr. Rekha Pillai",
+    "department": "Dermatology",
+    "experience": 15,
+    "qualification": "MD (Dermatology), Laser Dermatology",
+    "fee": 1100,
+    "rating": 4.7,
+    "reviewCount": 276,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-g1",
+    "user": "u-doc-g1",
+    "name": "Dr. Alok Mishra",
+    "department": "General Medicine",
+    "experience": 8,
+    "qualification": "MBBS, MD (Internal Medicine)",
+    "fee": 500,
+    "rating": 4.5,
+    "reviewCount": 312,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-g2",
+    "user": "u-doc-g2",
+    "name": "Dr. Shyam Gupta",
+    "department": "General Medicine",
+    "experience": 22,
+    "qualification": "MD (Medicine), DNB, FCPS",
+    "fee": 700,
+    "rating": 4.8,
+    "reviewCount": 521,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-g3",
+    "user": "u-doc-g3",
+    "name": "Dr. Tara Sinha",
+    "department": "General Medicine",
+    "experience": 11,
+    "qualification": "MD (Medicine), Fellowship in Critical Care",
+    "fee": 600,
+    "rating": 4.6,
+    "reviewCount": 204,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "11:00 AM - 05:00 PM"
+  },
+  {
+    "_id": "d-g4",
+    "user": "u-doc-g4",
+    "name": "Dr. Uday Mishra",
+    "department": "General Medicine",
+    "experience": 15,
+    "qualification": "MD (Medicine), Diabetes Specialist",
+    "fee": 650,
+    "rating": 4.7,
+    "reviewCount": 289,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-g5",
+    "user": "u-doc-g5",
+    "name": "Dr. Vandana Jain",
+    "department": "General Medicine",
+    "experience": 6,
+    "qualification": "MBBS, MD (Medicine)",
+    "fee": 450,
+    "rating": 4.3,
+    "reviewCount": 128,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-p1",
+    "user": "u-doc-p1",
+    "name": "Dr. Waqar Hussain",
+    "department": "Pediatrics",
+    "experience": 14,
+    "qualification": "MD (Pediatrics), DNB, Fellowship Neonatology",
+    "fee": 800,
+    "rating": 4.7,
+    "reviewCount": 387,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-p2",
+    "user": "u-doc-p2",
+    "name": "Dr. Yamini Reddy",
+    "department": "Pediatrics",
+    "experience": 10,
+    "qualification": "MD (Pediatrics), IAP Member",
+    "fee": 650,
+    "rating": 4.6,
+    "reviewCount": 243,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-p3",
+    "user": "u-doc-p3",
+    "name": "Dr. Zaheer Khan",
+    "department": "Pediatrics",
+    "experience": 18,
+    "qualification": "MD (Pediatrics), Pediatric Intensivist",
+    "fee": 1000,
+    "rating": 4.8,
+    "reviewCount": 412,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-p4",
+    "user": "u-doc-p4",
+    "name": "Dr. Anjali Dubey",
+    "department": "Pediatrics",
+    "experience": 7,
+    "qualification": "MD (Pediatrics), Child Development Specialist",
+    "fee": 600,
+    "rating": 4.5,
+    "reviewCount": 167,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-p5",
+    "user": "u-doc-p5",
+    "name": "Dr. Bhavesh Pandya",
+    "department": "Pediatrics",
+    "experience": 12,
+    "qualification": "MD (Pediatrics), Pediatric Neurology",
+    "fee": 850,
+    "rating": 4.7,
+    "reviewCount": 298,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-gy1",
+    "user": "u-doc-gy1",
+    "name": "Dr. Chitra Rao",
+    "department": "Gynecology",
+    "experience": 20,
+    "qualification": "MD (OBG), FRCOG, Laparoscopic Surgeon",
+    "fee": 1100,
+    "rating": 4.9,
+    "reviewCount": 541,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-gy2",
+    "user": "u-doc-gy2",
+    "name": "Dr. Divya Bhat",
+    "department": "Gynecology",
+    "experience": 12,
+    "qualification": "MD (OBG), DNB, Fertility Specialist",
+    "fee": 1200,
+    "rating": 4.8,
+    "reviewCount": 367,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-gy3",
+    "user": "u-doc-gy3",
+    "name": "Dr. Eesha Kulkarni",
+    "department": "Gynecology",
+    "experience": 9,
+    "qualification": "MD (OBG), DNB",
+    "fee": 900,
+    "rating": 4.6,
+    "reviewCount": 213,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "11:00 AM - 05:00 PM"
+  },
+  {
+    "_id": "d-gy4",
+    "user": "u-doc-gy4",
+    "name": "Dr. Farah Mirza",
+    "department": "Gynecology",
+    "experience": 15,
+    "qualification": "MD (OBG), Maternal-Fetal Medicine",
+    "fee": 1300,
+    "rating": 4.8,
+    "reviewCount": 432,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-gy5",
+    "user": "u-doc-gy5",
+    "name": "Dr. Gita Nair",
+    "department": "Gynecology",
+    "experience": 7,
+    "qualification": "MD (OBG), Gynec Oncology Fellow",
+    "fee": 800,
+    "rating": 4.5,
+    "reviewCount": 156,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-ga1",
+    "user": "u-doc-ga1",
+    "name": "Dr. Harendra Sahu",
+    "department": "Gastroenterology",
+    "experience": 17,
+    "qualification": "DM (Gastroenterology), MD, Advanced Endoscopy",
+    "fee": 1100,
+    "rating": 4.7,
+    "reviewCount": 298,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-ga2",
+    "user": "u-doc-ga2",
+    "name": "Dr. Indra Basu",
+    "department": "Gastroenterology",
+    "experience": 11,
+    "qualification": "DM (Gastroenterology), MD",
+    "fee": 900,
+    "rating": 4.6,
+    "reviewCount": 189,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 05:00 PM"
+  },
+  {
+    "_id": "d-ga3",
+    "user": "u-doc-ga3",
+    "name": "Dr. Jaya Krishnan",
+    "department": "Gastroenterology",
+    "experience": 14,
+    "qualification": "DM (Gastroenterology), Hepatology Fellow",
+    "fee": 1000,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-ga4",
+    "user": "u-doc-ga4",
+    "name": "Dr. Keshav Agarwal",
+    "department": "Gastroenterology",
+    "experience": 22,
+    "qualification": "DM (Gastroenterology), FRCP, Hepatologist",
+    "fee": 1500,
+    "rating": 4.9,
+    "reviewCount": 487,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-ga5",
+    "user": "u-doc-ga5",
+    "name": "Dr. Leela Iyer",
+    "department": "Gastroenterology",
+    "experience": 7,
+    "qualification": "DM (Gastroenterology), MD",
+    "fee": 800,
+    "rating": 4.4,
+    "reviewCount": 112,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-pu1",
+    "user": "u-doc-pu1",
+    "name": "Dr. Mahesh Gopal",
+    "department": "Pulmonology",
+    "experience": 16,
+    "qualification": "DM (Pulmonology), MD, Critical Care",
+    "fee": 1000,
+    "rating": 4.7,
+    "reviewCount": 267,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-pu2",
+    "user": "u-doc-pu2",
+    "name": "Dr. Neha Bhatt",
+    "department": "Pulmonology",
+    "experience": 9,
+    "qualification": "MD (Chest & TB), DM Respiratory Medicine",
+    "fee": 800,
+    "rating": 4.5,
+    "reviewCount": 143,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-pu3",
+    "user": "u-doc-pu3",
+    "name": "Dr. Om Prakash",
+    "department": "Pulmonology",
+    "experience": 13,
+    "qualification": "DM (Pulmonology), Interventional Bronchoscopy",
+    "fee": 950,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-pu4",
+    "user": "u-doc-pu4",
+    "name": "Dr. Preeti Das",
+    "department": "Pulmonology",
+    "experience": 20,
+    "qualification": "DM (Pulmonology), FRCP, Sleep Medicine",
+    "fee": 1200,
+    "rating": 4.8,
+    "reviewCount": 356,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-pu5",
+    "user": "u-doc-pu5",
+    "name": "Dr. Rajan Saxena",
+    "department": "Pulmonology",
+    "experience": 7,
+    "qualification": "MD (Medicine), DM Pulmonology",
+    "fee": 700,
+    "rating": 4.4,
+    "reviewCount": 97,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-en1",
+    "user": "u-doc-en1",
+    "name": "Dr. Savita Chouhan",
+    "department": "Endocrinology",
+    "experience": 15,
+    "qualification": "DM (Endocrinology), MD, Diabetes & Thyroid",
+    "fee": 1000,
+    "rating": 4.7,
+    "reviewCount": 312,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-en2",
+    "user": "u-doc-en2",
+    "name": "Dr. Tarun Kapoor",
+    "department": "Endocrinology",
+    "experience": 11,
+    "qualification": "DM (Endocrinology), MD",
+    "fee": 850,
+    "rating": 4.6,
+    "reviewCount": 214,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-en3",
+    "user": "u-doc-en3",
+    "name": "Dr. Uma Shankar",
+    "department": "Endocrinology",
+    "experience": 19,
+    "qualification": "DM (Endocrinology), FRCP, Reproductive Endo",
+    "fee": 1300,
+    "rating": 4.8,
+    "reviewCount": 389,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-en4",
+    "user": "u-doc-en4",
+    "name": "Dr. Venu Gopal",
+    "department": "Endocrinology",
+    "experience": 8,
+    "qualification": "MD (Medicine), DM Endocrinology",
+    "fee": 750,
+    "rating": 4.4,
+    "reviewCount": 134,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-en5",
+    "user": "u-doc-en5",
+    "name": "Dr. Warsha Mehta",
+    "department": "Endocrinology",
+    "experience": 13,
+    "qualification": "DM (Endocrinology), Obesity Medicine",
+    "fee": 950,
+    "rating": 4.7,
+    "reviewCount": 243,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-u1",
+    "user": "u-doc-u1",
+    "name": "Dr. Xavier D'Souza",
+    "department": "Urology",
+    "experience": 17,
+    "qualification": "MCh (Urology), MS, Robotic Surgery",
+    "fee": 1200,
+    "rating": 4.8,
+    "reviewCount": 298,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-u2",
+    "user": "u-doc-u2",
+    "name": "Dr. Yashwant Patil",
+    "department": "Urology",
+    "experience": 12,
+    "qualification": "MCh (Urology), DNB, Endourology",
+    "fee": 1000,
+    "rating": 4.6,
+    "reviewCount": 212,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-u3",
+    "user": "u-doc-u3",
+    "name": "Dr. Zubin Contractor",
+    "department": "Urology",
+    "experience": 21,
+    "qualification": "MCh (Urology), Uro-Oncology Fellow",
+    "fee": 1500,
+    "rating": 4.9,
+    "reviewCount": 456,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-u4",
+    "user": "u-doc-u4",
+    "name": "Dr. Abha Goel",
+    "department": "Urology",
+    "experience": 9,
+    "qualification": "MCh (Urology), Female Urology",
+    "fee": 900,
+    "rating": 4.5,
+    "reviewCount": 143,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-u5",
+    "user": "u-doc-u5",
+    "name": "Dr. Bhushan More",
+    "department": "Urology",
+    "experience": 14,
+    "qualification": "MCh (Urology), Andrology Specialist",
+    "fee": 1100,
+    "rating": 4.7,
+    "reviewCount": 267,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-on1",
+    "user": "u-doc-on1",
+    "name": "Dr. Chetna Saxena",
+    "department": "Oncology",
+    "experience": 18,
+    "qualification": "DM (Medical Oncology), MD, ESMO",
+    "fee": 1500,
+    "rating": 4.8,
+    "reviewCount": 312,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-on2",
+    "user": "u-doc-on2",
+    "name": "Dr. Dinesh Rajan",
+    "department": "Oncology",
+    "experience": 14,
+    "qualification": "DM (Oncology), Surgical Oncology, FICS",
+    "fee": 1300,
+    "rating": 4.7,
+    "reviewCount": 256,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-on3",
+    "user": "u-doc-on3",
+    "name": "Dr. Esha Tomar",
+    "department": "Oncology",
+    "experience": 10,
+    "qualification": "MD (Radiation Oncology), PGIMER",
+    "fee": 1200,
+    "rating": 4.6,
+    "reviewCount": 187,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-on4",
+    "user": "u-doc-on4",
+    "name": "Dr. Firoz Khan",
+    "department": "Oncology",
+    "experience": 23,
+    "qualification": "DM (Oncology), Hematology, FRCP",
+    "fee": 2000,
+    "rating": 4.9,
+    "reviewCount": 534,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-on5",
+    "user": "u-doc-on5",
+    "name": "Dr. Girija Shankar",
+    "department": "Oncology",
+    "experience": 8,
+    "qualification": "DM (Oncology), Palliative Care",
+    "fee": 1000,
+    "rating": 4.5,
+    "reviewCount": 142,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-ps1",
+    "user": "u-doc-ps1",
+    "name": "Dr. Hemal Vora",
+    "department": "Psychiatry",
+    "experience": 16,
+    "qualification": "MD (Psychiatry), MRCPsych UK",
+    "fee": 1000,
+    "rating": 4.7,
+    "reviewCount": 276,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-ps2",
+    "user": "u-doc-ps2",
+    "name": "Dr. Indrani Paul",
+    "department": "Psychiatry",
+    "experience": 12,
+    "qualification": "MD (Psychiatry), CBT Certified",
+    "fee": 900,
+    "rating": 4.6,
+    "reviewCount": 198,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-ps3",
+    "user": "u-doc-ps3",
+    "name": "Dr. Jayesh Trivedi",
+    "department": "Psychiatry",
+    "experience": 20,
+    "qualification": "MD (Psychiatry), Child & Adolescent Psych",
+    "fee": 1200,
+    "rating": 4.8,
+    "reviewCount": 387,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-ps4",
+    "user": "u-doc-ps4",
+    "name": "Dr. Kalpana Misra",
+    "department": "Psychiatry",
+    "experience": 8,
+    "qualification": "MD (Psychiatry), Addiction Medicine",
+    "fee": 850,
+    "rating": 4.5,
+    "reviewCount": 134,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-ps5",
+    "user": "u-doc-ps5",
+    "name": "Dr. Lokesh Yadav",
+    "department": "Psychiatry",
+    "experience": 14,
+    "qualification": "MD (Psychiatry), Geriatric Psychiatry",
+    "fee": 950,
+    "rating": 4.7,
+    "reviewCount": 243,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-ne1",
+    "user": "u-doc-ne1",
+    "name": "Dr. Manisha Thakur",
+    "department": "Nephrology",
+    "experience": 15,
+    "qualification": "DM (Nephrology), MD, Transplant Medicine",
+    "fee": 1100,
+    "rating": 4.7,
+    "reviewCount": 267,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-ne2",
+    "user": "u-doc-ne2",
+    "name": "Dr. Navneet Gill",
+    "department": "Nephrology",
+    "experience": 11,
+    "qualification": "DM (Nephrology), Dialysis Specialist",
+    "fee": 950,
+    "rating": 4.6,
+    "reviewCount": 189,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-ne3",
+    "user": "u-doc-ne3",
+    "name": "Dr. Ojas Dixit",
+    "department": "Nephrology",
+    "experience": 18,
+    "qualification": "DM (Nephrology), MD, FRCP",
+    "fee": 1300,
+    "rating": 4.8,
+    "reviewCount": 342,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-ne4",
+    "user": "u-doc-ne4",
+    "name": "Dr. Prabhavathi S",
+    "department": "Nephrology",
+    "experience": 7,
+    "qualification": "MD (Medicine), DM Nephrology",
+    "fee": 800,
+    "rating": 4.4,
+    "reviewCount": 112,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-ne5",
+    "user": "u-doc-ne5",
+    "name": "Dr. Rageeth Varma",
+    "department": "Nephrology",
+    "experience": 22,
+    "qualification": "DM (Nephrology), Renal Transplant Surgeon",
+    "fee": 1500,
+    "rating": 4.9,
+    "reviewCount": 478,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  },
+  {
+    "_id": "d-r1",
+    "user": "u-doc-r1",
+    "name": "Dr. Sandhya Bose",
+    "department": "Rheumatology",
+    "experience": 16,
+    "qualification": "DM (Rheumatology), MD",
+    "fee": 950,
+    "rating": 4.7,
+    "reviewCount": 234,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "09:00 AM - 02:00 PM"
+  },
+  {
+    "_id": "d-r2",
+    "user": "u-doc-r2",
+    "name": "Dr. Trivikram Rao",
+    "department": "Rheumatology",
+    "experience": 12,
+    "qualification": "DM (Rheumatology), Clinical Immunology",
+    "fee": 900,
+    "rating": 4.6,
+    "reviewCount": 189,
+    "availableDays": [
+      "Tuesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "10:00 AM - 04:00 PM"
+  },
+  {
+    "_id": "d-r3",
+    "user": "u-doc-r3",
+    "name": "Dr. Urmila Thadani",
+    "department": "Rheumatology",
+    "experience": 20,
+    "qualification": "DM (Rheumatology), MD, FRCP",
+    "fee": 1200,
+    "rating": 4.8,
+    "reviewCount": 356,
+    "availableDays": [
+      "Monday",
+      "Tuesday",
+      "Thursday"
+    ],
+    "availableTime": "01:00 PM - 06:00 PM"
+  },
+  {
+    "_id": "d-r4",
+    "user": "u-doc-r4",
+    "name": "Dr. Vimal Agnihotri",
+    "department": "Rheumatology",
+    "experience": 9,
+    "qualification": "MD (Medicine), DM Rheumatology",
+    "fee": 800,
+    "rating": 4.5,
+    "reviewCount": 143,
+    "availableDays": [
+      "Wednesday",
+      "Friday"
+    ],
+    "availableTime": "08:00 AM - 01:00 PM"
+  },
+  {
+    "_id": "d-r5",
+    "user": "u-doc-r5",
+    "name": "Dr. Wasim Baig",
+    "department": "Rheumatology",
+    "experience": 14,
+    "qualification": "DM (Rheumatology), Autoimmune Diseases",
+    "fee": 1000,
+    "rating": 4.7,
+    "reviewCount": 267,
+    "availableDays": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+    ],
+    "availableTime": "02:00 PM - 07:00 PM"
+  }
+]

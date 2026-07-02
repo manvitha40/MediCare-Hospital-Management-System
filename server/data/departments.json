@@ -1,0 +1,87 @@
+[
+  {
+    "name": "Cardiology",
+    "description": "Heart disease, coronary artery interventions, vascular surgery, ECG, echocardiography, and advanced cardiac care.",
+    "status": "Active"
+  },
+  {
+    "name": "Neurology",
+    "description": "Brain, spinal cord, nerve disorders — stroke, epilepsy, Parkinson's, dementia, and headache management.",
+    "status": "Active"
+  },
+  {
+    "name": "Orthopedics",
+    "description": "Bone, joint, and musculoskeletal care including joint replacement, sports injuries, and spine surgeries.",
+    "status": "Active"
+  },
+  {
+    "name": "ENT",
+    "description": "Ear, Nose & Throat conditions — sinusitis, hearing loss, cochlear implants, voice disorders, tonsillectomy.",
+    "status": "Active"
+  },
+  {
+    "name": "Ophthalmology",
+    "description": "Eye care including cataract surgery, LASIK, retina surgery, glaucoma management, and corneal transplants.",
+    "status": "Active"
+  },
+  {
+    "name": "Dermatology",
+    "description": "Skin, hair, and nail disorders — acne, psoriasis, eczema, skin cancer screening, and cosmetic dermatology.",
+    "status": "Active"
+  },
+  {
+    "name": "General Medicine",
+    "description": "Comprehensive adult healthcare, chronic disease management, preventive care, and internal medicine.",
+    "status": "Active"
+  },
+  {
+    "name": "Pediatrics",
+    "description": "Child and newborn care, vaccinations, growth monitoring, neonatology, and pediatric emergency services.",
+    "status": "Active"
+  },
+  {
+    "name": "Gynecology",
+    "description": "Women's reproductive health — pregnancy care, fertility treatments, PCOS, menopause, and gynecologic oncology.",
+    "status": "Active"
+  },
+  {
+    "name": "Gastroenterology",
+    "description": "Digestive tract disorders — IBS, Crohn's, liver disease, endoscopy, colonoscopy, and hepatology.",
+    "status": "Active"
+  },
+  {
+    "name": "Pulmonology",
+    "description": "Lung and respiratory disorders — asthma, COPD, sleep apnea, bronchoscopy, and critical respiratory care.",
+    "status": "Active"
+  },
+  {
+    "name": "Endocrinology",
+    "description": "Hormonal and metabolic conditions — diabetes, thyroid disorders, obesity, adrenal and pituitary diseases.",
+    "status": "Active"
+  },
+  {
+    "name": "Urology",
+    "description": "Urinary tract and male reproductive system — kidney stones, prostate, bladder cancer, and robotic surgery.",
+    "status": "Active"
+  },
+  {
+    "name": "Oncology",
+    "description": "Cancer diagnosis and treatment — chemotherapy, immunotherapy, radiation, surgical oncology, and palliative care.",
+    "status": "Active"
+  },
+  {
+    "name": "Psychiatry",
+    "description": "Mental health care — depression, anxiety, schizophrenia, addiction, CBT, and geriatric psychiatry.",
+    "status": "Active"
+  },
+  {
+    "name": "Nephrology",
+    "description": "Kidney disease management — CKD, dialysis, renal transplant, hypertension nephrology, and glomerulonephritis.",
+    "status": "Active"
+  },
+  {
+    "name": "Rheumatology",
+    "description": "Autoimmune and musculoskeletal diseases — rheumatoid arthritis, lupus, gout, ankylosing spondylitis, vasculitis.",
+    "status": "Active"
+  }
+]

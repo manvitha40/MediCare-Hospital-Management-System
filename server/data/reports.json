@@ -1,0 +1,137 @@
+[
+  {
+    "_id": "rep-1",
+    "patient": "p-1",
+    "testName": "Blood Test",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "Haemoglobin: 14.8 g/dL (Normal). Cholesterol: 196 mg/dL (Normal). Blood Sugar Fasting: 88 mg/dL (Normal). Triglycerides: 142 mg/dL (Borderline).",
+    "fileUrl": "/uploads/blood_test_p1.pdf"
+  },
+  {
+    "_id": "rep-2",
+    "patient": "p-2",
+    "testName": "MRI",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "Brain MRI: No structural abnormalities. No space-occupying lesions. No vascular malformations. Clear CSF flow. White matter intact.",
+    "fileUrl": "/uploads/mri_brain_p2.pdf"
+  },
+  {
+    "_id": "rep-3",
+    "patient": "p-4",
+    "testName": "ECG",
+    "date": "2026-07-02",
+    "status": "Completed",
+    "result": "ECG: Normal sinus rhythm at 72 bpm. No ST-segment changes. QT interval 420ms (normal). Mild left ventricular hypertrophy pattern noted. Clinical correlation advised.",
+    "fileUrl": "/uploads/ecg_p4.pdf"
+  },
+  {
+    "_id": "rep-4",
+    "patient": "p-7",
+    "testName": "Blood Test",
+    "date": "2026-07-02",
+    "status": "Completed",
+    "result": "IgE Total: 420 IU/mL (Elevated). Eosinophil count: 550 (Borderline). Spirometry FEV1/FVC ratio: 0.72. Consistent with mild obstructive pattern.",
+    "fileUrl": "/uploads/blood_test_p7.pdf"
+  },
+  {
+    "_id": "rep-5",
+    "patient": "p-8",
+    "testName": "CT Scan",
+    "date": "2026-07-02",
+    "status": "Completed",
+    "result": "CT Thorax: Bilateral hyperinflation consistent with severe COPD. Emphysematous changes in upper lobes. No pulmonary embolism. No pleural effusion.",
+    "fileUrl": "/uploads/ct_scan_p8.pdf"
+  },
+  {
+    "_id": "rep-6",
+    "patient": "p-9",
+    "testName": "Blood Test",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "ESR: 68 mm/hr (Elevated). CRP: 24 mg/L (High). RF: 120 IU/mL (Positive). Anti-CCP: Positive. ANA: Negative. Consistent with active Rheumatoid Arthritis.",
+    "fileUrl": "/uploads/blood_test_p9.pdf"
+  },
+  {
+    "_id": "rep-7",
+    "patient": "p-12",
+    "testName": "Blood Test",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "Serum Creatinine: 2.8 mg/dL (Elevated). eGFR: 28 mL/min (CKD Stage 3b). Urea: 68 mg/dL. Potassium: 5.4 mEq/L (Borderline). Phosphorus: Elevated.",
+    "fileUrl": "/uploads/blood_test_p12.pdf"
+  },
+  {
+    "_id": "rep-8",
+    "patient": "p-14",
+    "testName": "Blood Test",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "Bilirubin Total: 3.8 mg/dL (Elevated). AST: 86 U/L. ALT: 72 U/L. ALP: 210 U/L (Elevated). Albumin: 2.9 g/dL (Low). INR: 1.7. Child-Pugh Score Class B.",
+    "fileUrl": "/uploads/blood_test_p14.pdf"
+  },
+  {
+    "_id": "rep-9",
+    "patient": "p-17",
+    "testName": "X-Ray",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "X-Ray Left Hip: Total hip prosthesis in satisfactory position. No periprosthetic fracture. No dislocation. Excellent component alignment. No hardware loosening.",
+    "fileUrl": "/uploads/xray_hip_p17.pdf"
+  },
+  {
+    "_id": "rep-10",
+    "patient": "p-22",
+    "testName": "Blood Test",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "Serum Uric Acid: 9.2 mg/dL (Elevated, normal <6.0). WBC: 11,200/µL (Mild Leukocytosis). CRP: 18 mg/L. Joint aspiration: Monosodium urate crystals confirmed.",
+    "fileUrl": "/uploads/blood_test_p22.pdf"
+  },
+  {
+    "_id": "rep-11",
+    "patient": "p-24",
+    "testName": "ECG",
+    "date": "2026-07-01",
+    "status": "Completed",
+    "result": "EEG: Occasional spike-wave discharges in temporal lobe bilaterally consistent with complex partial epilepsy. No generalized seizure activity during recording.",
+    "fileUrl": "/uploads/eeg_p24.pdf"
+  },
+  {
+    "_id": "rep-12",
+    "patient": "p-27",
+    "testName": "Blood Test",
+    "date": "2026-06-30",
+    "status": "Completed",
+    "result": "CBC: WBC 3200/µL (Neutropenia post-chemo). Haemoglobin: 9.8 g/dL (Mild Anemia). Platelets: 112K/µL (Thrombocytopenia). G-CSF support recommended.",
+    "fileUrl": "/uploads/blood_test_p27.pdf"
+  },
+  {
+    "_id": "rep-13",
+    "patient": "p-3",
+    "testName": "Blood Test",
+    "date": "2026-07-02",
+    "status": "Pending",
+    "result": "Awaiting lab analysis",
+    "fileUrl": ""
+  },
+  {
+    "_id": "rep-14",
+    "patient": "p-5",
+    "testName": "Blood Test",
+    "date": "2026-07-02",
+    "status": "Pending",
+    "result": "Awaiting lab analysis",
+    "fileUrl": ""
+  },
+  {
+    "_id": "rep-15",
+    "patient": "p-4",
+    "testName": "CT Scan",
+    "date": "2026-07-02",
+    "status": "Pending",
+    "result": "Awaiting CT imaging and radiologist report",
+    "fileUrl": ""
+  }
+]
