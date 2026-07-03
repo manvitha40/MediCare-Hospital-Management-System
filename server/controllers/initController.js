@@ -368,6 +368,55 @@ await Bill.insertMany(bills);
 
 console.log("Bills Created");
 
+// ======================================
+// REPORTS
+// ======================================
+
+const reports = [];
+
+const testNames = [
+  "Blood Test",
+  "MRI",
+  "X-Ray",
+  "ECG",
+  "CT Scan"
+];
+
+const reportResults = [
+  "Normal",
+  "Minor Infection Detected",
+  "Blood Pressure Slightly High",
+  "Vitamin D Deficiency",
+  "No Abnormalities Found"
+];
+
+patients.forEach((patient, index) => {
+
+  reports.push({
+
+    patient: patient._id,
+
+    testName: testNames[index % testNames.length],
+
+    date: `2026-07-${String((index % 28) + 1).padStart(2, "0")}`,
+
+    status: index % 2 === 0 ? "Completed" : "Pending",
+
+    result:
+      index % 2 === 0
+        ? reportResults[index % reportResults.length]
+        : "Awaiting lab analysis",
+
+    fileUrl: ""
+
+  });
+
+});
+
+await Report.insertMany(reports);
+
+console.log("Reports Created");
+
 
 
     return res.status(200).json({
