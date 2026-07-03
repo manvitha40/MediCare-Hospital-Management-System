@@ -46,7 +46,7 @@ exports.initDatabase = async (req, res) => {
   email: "rajesh@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/rajesh.jpg"
+  profileImage: "/images/doctors/rajesh.jpg"
 });
 
 const doctorUser2 = await User.create({
@@ -54,7 +54,7 @@ const doctorUser2 = await User.create({
   email: "priya@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/priya.jpg"
+  profileImage: "/images/doctors/priya.jpg"
 });
 
 const doctorUser3 = await User.create({
@@ -62,7 +62,7 @@ const doctorUser3 = await User.create({
   email: "arjun@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/arjun.jpg"
+  profileImage: "/images/doctors/arjun.jpg"
 });
 
 const doctorUser4 = await User.create({
@@ -70,7 +70,7 @@ const doctorUser4 = await User.create({
   email: "sneha@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/sneha.jpg"
+  profileImage: "/images/doctors/sneha.jpg"
 });
 
 const doctorUser5 = await User.create({
@@ -78,7 +78,7 @@ const doctorUser5 = await User.create({
   email: "vivek@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/vivek.jpg"
+  profileImage: "/images/doctors/vivek.jpg"
 });
 
 const doctorUser6 = await User.create({
@@ -86,7 +86,7 @@ const doctorUser6 = await User.create({
   email: "meera@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/meera.jpg"
+  profileImage: "/images/doctors/meera.jpg"
 });
 
 const doctorUser7 = await User.create({
@@ -94,7 +94,7 @@ const doctorUser7 = await User.create({
   email: "karthik@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/karthik.jpg"
+  profileImage: "/images/doctors/karthik.jpg"
 });
 
 const doctorUser8 = await User.create({
@@ -102,7 +102,7 @@ const doctorUser8 = await User.create({
   email: "ananya@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "client/public/images/doctors/ananya.jpg"
+  profileImage: "/images/doctors/ananya.jpg"
 });
 
     const receptionist = await User.create({
@@ -110,7 +110,7 @@ const doctorUser8 = await User.create({
       email: "pooja.reception@medicare.com",
       password: receptionistPassword,
       role: "receptionist",
-      profileImage: "client/public/images/receptionist/pooja.jpg"
+      profileImage: "/images/receptionist/pooja.jpg"
     });
 
     const patientUsers = [];
