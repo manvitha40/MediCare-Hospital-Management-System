@@ -272,6 +272,56 @@ const createdAppointments = await Appointment.insertMany(appointments);
 
 console.log("Appointments Created");
 
+// ======================================
+// PRESCRIPTIONS
+// ======================================
+
+const prescriptions = [];
+
+const completedAppointments = createdAppointments.filter(
+  app => app.status === "Completed"
+);
+
+completedAppointments.forEach((appointment, index) => {
+
+  prescriptions.push({
+
+    patient: appointment.patient,
+
+    doctor: appointment.doctor,
+
+    appointment: appointment._id,
+
+    medicines: [
+      {
+        name: "Paracetamol",
+        dosage: "500 mg",
+        duration: "5 Days",
+        frequency: "1-0-1"
+      },
+      {
+        name: "Vitamin C",
+        dosage: "1000 mg",
+        duration: "7 Days",
+        frequency: "0-1-0"
+      }
+    ],
+
+    notes: [
+      "Drink plenty of water.",
+      "Take medicines after food.",
+      "Take complete bed rest.",
+      "Follow up after one week."
+    ][index % 4]
+
+  });
+
+});
+
+await Prescription.insertMany(prescriptions);
+
+console.log("Prescriptions Created");
+
 
 
     return res.status(200).json({
