@@ -7,16 +7,24 @@ const Patient = require("../models/Patient");
 const Department = require("../models/Department");
 const Room = require("../models/Room");
 const Medicine = require("../models/Medicine");
+const Appointment = require("../models/Appointment");
+const Prescription = require("../models/Prescription");
+const Bill = require("../models/Bill");
+const Report = require("../models/Report");
 
 exports.initDatabase = async (req, res) => {
   try {
     // Clear existing collections
     await User.deleteMany({});
-    await Doctor.deleteMany({});
+    await Doctor.deleteMany({}); 
     await Patient.deleteMany({});
     await Department.deleteMany({});
     await Room.deleteMany({});
     await Medicine.deleteMany({});
+    await Appointment.deleteMany({});
+    await Prescription.deleteMany({});
+    await Bill.deleteMany({});
+    await Report.deleteMany({});
 
     // Hash passwords
     const adminPassword = await bcrypt.hash("admin123", 10);
@@ -106,7 +114,7 @@ await Department.insertMany([
 
 console.log("Departments Created");
 
-await Doctor.insertMany([
+const doctors = await Doctor.insertMany([
   {
     user: doctorUser1._id,
     name: doctorUser1.name,
@@ -135,7 +143,7 @@ await Doctor.insertMany([
 
 console.log("Doctors Created");
 
-await Patient.insertMany([
+const patients = await Patient.insertMany([
   {
     user: patientUser1._id,
     name: patientUser1.name,
@@ -215,6 +223,54 @@ await Medicine.insertMany([
 ]);
 
 console.log("Medicines Created");
+
+// ======================================
+// APPOINTMENTS
+// ======================================
+
+const appointmentStatuses = [
+  "Pending",
+  "Confirmed",
+  "Completed",
+  "Cancelled"
+];
+
+const appointmentReasons = [
+  "General Checkup",
+  "Fever",
+  "Headache",
+  "Diabetes Follow-up",
+  "Heart Consultation",
+  "Chest Pain",
+  "Routine Checkup",
+  "Skin Allergy"
+];
+
+const appointments = [];
+
+for (let i = 0; i < 20; i++) {
+
+  appointments.push({
+
+    patient: patients[i % patients.length]._id,
+
+    doctor: doctors[i % doctors.length]._id,
+
+    date: `2026-07-${String((i % 28) + 1).padStart(2, "0")}`,
+
+    time: `${9 + (i % 8)}:00 AM`,
+
+    status: appointmentStatuses[i % appointmentStatuses.length],
+
+    reason: appointmentReasons[i % appointmentReasons.length]
+
+  });
+
+}
+
+const createdAppointments = await Appointment.insertMany(appointments);
+
+console.log("Appointments Created");
 
 
 
