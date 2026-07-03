@@ -196,11 +196,21 @@ const DoctorAppointments = () => {
                   </td>
                   <td>
                     <div className="flex align-center gap-2">
-                      <img 
-                        src={app.patient?.profileImage || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80'} 
-                        alt={app.patient?.name} 
-                        style={{ width: '36px', height: '36px', borderRadius: '50%', objectFit: 'cover' }}
-                      />
+                      <div
+  style={{
+    width: "40px",
+    height: "40px",
+    borderRadius: "50%",
+    backgroundColor: "#2563eb",
+    color: "#fff",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontWeight: "bold"
+  }}
+>
+  {app.patient?.name?.charAt(0)}
+</div>
                       <div className="flex flex-col">
                         <span style={{ fontWeight: 600 }}>{app.patient?.name || 'Unknown Patient'}</span>
                         <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>

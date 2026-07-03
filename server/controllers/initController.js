@@ -46,7 +46,7 @@ exports.initDatabase = async (req, res) => {
   email: "rajesh@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/men/32.jpg"
+  profileImage: "client/public/images/doctors/rajesh.jpg"
 });
 
 const doctorUser2 = await User.create({
@@ -54,7 +54,7 @@ const doctorUser2 = await User.create({
   email: "priya@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/women/44.jpg"
+  profileImage: "client/public/images/doctors/priya.jpg"
 });
 
 const doctorUser3 = await User.create({
@@ -62,7 +62,7 @@ const doctorUser3 = await User.create({
   email: "arjun@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/men/45.jpg"
+  profileImage: "client/public/images/doctors/arjun.jpg"
 });
 
 const doctorUser4 = await User.create({
@@ -70,7 +70,7 @@ const doctorUser4 = await User.create({
   email: "sneha@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/women/65.jpg"
+  profileImage: "client/public/images/doctors/sneha.jpg"
 });
 
 const doctorUser5 = await User.create({
@@ -78,7 +78,7 @@ const doctorUser5 = await User.create({
   email: "vivek@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/men/67.jpg"
+  profileImage: "client/public/images/doctors/vivek.jpg"
 });
 
 const doctorUser6 = await User.create({
@@ -86,7 +86,7 @@ const doctorUser6 = await User.create({
   email: "meera@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/women/30.jpg"
+  profileImage: "client/public/images/doctors/meera.jpg"
 });
 
 const doctorUser7 = await User.create({
@@ -94,7 +94,7 @@ const doctorUser7 = await User.create({
   email: "karthik@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/men/75.jpg"
+  profileImage: "client/public/images/doctors/karthik.jpg"
 });
 
 const doctorUser8 = await User.create({
@@ -102,44 +102,44 @@ const doctorUser8 = await User.create({
   email: "ananya@medicare.com",
   password: doctorPassword,
   role: "doctor",
-  profileImage: "https://randomuser.me/api/portraits/women/22.jpg"
+  profileImage: "client/public/images/doctors/ananya.jpg"
 });
 
     const receptionist = await User.create({
-      name: "Priya Sharma",
-      email: "reception@medicare.com",
+      name: "Pooja Sharma",
+      email: "pooja.reception@medicare.com",
       password: receptionistPassword,
       role: "receptionist",
-      profileImage: ""
+      profileImage: "client/public/images/receptionist/pooja.jpg"
     });
 
     const patientUsers = [];
 
-patientUsers.push(await User.create({ name:"Rahul Verma", email:"rahul@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Anjali Reddy", email:"anjali@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Rohit Sharma", email:"rohit@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Sneha Kapoor", email:"sneha@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Kiran Kumar", email:"kiran@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Lakshmi Devi", email:"lakshmi@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Aditya Varma", email:"aditya@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Swathi Rao", email:"swathi@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Naveen Kumar", email:"naveen@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Meena Joshi", email:"meena@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Vikram Patel", email:"vikram@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Priyanka Singh", email:"priyanka@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Harsha Reddy", email:"harsha@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Akhil Krishna", email:"akhil@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Bhavana Rao", email:"bhavana@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Suresh Yadav", email:"suresh@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Divya Nair", email:"divya@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Pooja Sharma", email:"pooja@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Ramesh Naidu", email:"ramesh@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Keerthi Devi", email:"keerthi@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Ajay Mehta", email:"ajay@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Neha Jain", email:"neha@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Sai Krishna", email:"saikrishna@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Anusha Reddy", email:"anusha@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
-patientUsers.push(await User.create({ name:"Manoj Kumar", email:"manoj@gmail.com", password:patientPassword, role:"patient", profileImage:"" }));
+patientUsers.push(await User.create({ name:"Rahul Verma", email:"rahul@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Anjali Reddy", email:"anjali@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Rohit Sharma", email:"rohit@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Sneha Kapoor", email:"sneha@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Kiran Kumar", email:"kiran@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Lakshmi Devi", email:"lakshmi@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Aditya Varma", email:"aditya@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Swathi Rao", email:"swathi@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Naveen Kumar", email:"naveen@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Meena Joshi", email:"meena@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Vikram Patel", email:"vikram@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Priyanka Singh", email:"priyanka@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Harsha Reddy", email:"harsha@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Akhil Krishna", email:"akhil@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Bhavana Rao", email:"bhavana@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Suresh Yadav", email:"suresh@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Divya Nair", email:"divya@gmail.com", password:patientPassword, role:"patient"}));
+patientUsers.push(await User.create({ name:"Pooja Sharma", email:"pooja@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Ramesh Naidu", email:"ramesh@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Keerthi Devi", email:"keerthi@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Ajay Mehta", email:"ajay@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Neha Jain", email:"neha@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Sai Krishna", email:"saikrishna@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Anusha Reddy", email:"anusha@gmail.com", password:patientPassword, role:"patient" }));
+patientUsers.push(await User.create({ name:"Manoj Kumar", email:"manoj@gmail.com", password:patientPassword, role:"patient"}));
       
 
     // =======================
