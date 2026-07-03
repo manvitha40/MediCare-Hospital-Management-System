@@ -1054,18 +1054,18 @@ console.log(`${reports.length} Reports Created`);
 
 
 
-    return res.status(200).json({
-      success: true,
-      message: "Hospital database initialized successfully.",
-      users: {
-        admin: admin.email,
-        doctor1: doctorUser1.email,
-        doctor2: doctorUser2.email,
-        receptionist: receptionist.email,
-        patient1: patientUser1.email,
-        patient2: patientUser2.email
-      }
-    });
+    return res.json({
+  success: true,
+  doctors: await Doctor.countDocuments(),
+  patients: await Patient.countDocuments(),
+  appointments: await Appointment.countDocuments(),
+  prescriptions: await Prescription.countDocuments(),
+  bills: await Bill.countDocuments(),
+  reports: await Report.countDocuments(),
+  medicines: await Medicine.countDocuments(),
+  rooms: await Room.countDocuments(),
+  departments: await Department.countDocuments()
+});
 
   } catch (err) {
     console.error(err);
