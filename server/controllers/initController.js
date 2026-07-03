@@ -322,6 +322,52 @@ await Prescription.insertMany(prescriptions);
 
 console.log("Prescriptions Created");
 
+// ======================================
+// BILLS
+// ======================================
+
+const bills = [];
+
+completedAppointments.forEach((appointment, index) => {
+
+  const consultationFee = 1000 + (index % 3) * 200;
+  const medicineFee = 250 + (index % 4) * 100;
+  const labFee = (index % 2 === 0) ? 500 : 0;
+  const roomCharges = (index % 3 === 0) ? 1500 : 0;
+
+  const tax = Math.round(
+    (consultationFee + medicineFee + labFee + roomCharges) * 0.05
+  );
+
+  const total =
+    consultationFee +
+    medicineFee +
+    labFee +
+    roomCharges +
+    tax;
+
+  bills.push({
+    patient: appointment.patient,
+    appointment: appointment._id,
+
+    consultationFee,
+    medicineFee,
+    labFee,
+    roomCharges,
+    tax,
+    total,
+
+    status: index % 2 === 0 ? "Paid" : "Pending",
+
+    date: appointment.date
+  });
+
+});
+
+await Bill.insertMany(bills);
+
+console.log("Bills Created");
+
 
 
     return res.status(200).json({
