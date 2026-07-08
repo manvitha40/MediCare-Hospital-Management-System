@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Search, AlertCircle, XCircle } from 'lucide-react';
+import { Calendar, Search, AlertCircle, XCircle, Stethoscope } from 'lucide-react';
 import { api } from '../../services/api';
 import Toast from '../../components/common/Toast';
 
@@ -110,11 +110,19 @@ const PatientAppointments = () => {
                   </td>
                   <td>
                     <div className="flex align-center gap-2">
-                      <img 
-                        src={app.doctor?.profileImage || 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=100&q=80'} 
-                        alt={app.doctor?.name} 
-                        style={{ width: '36px', height: '36px', borderRadius: '50%', objectFit: 'cover' }}
-                      />
+                      <div style={{
+                        width: '36px',
+                        height: '36px',
+                        borderRadius: '50%',
+                        backgroundColor: '#dbeafe',
+                        color: '#2563eb',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexShrink: 0
+                      }}>
+                        <Stethoscope size={18} />
+                      </div>
                       <div className="flex flex-col">
                         <span style={{ fontWeight: 600 }}>{app.doctor?.name || 'Unknown Doctor'}</span>
                         <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>

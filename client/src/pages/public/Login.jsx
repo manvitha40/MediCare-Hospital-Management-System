@@ -122,7 +122,7 @@ const Login = () => {
             </button>
             <button 
               className="btn btn-outline btn-sm" 
-              onClick={() => handleQuickFill('john@medicare.com', 'doctor123')}
+              onClick={() => handleQuickFill('rajesh@medicare.com', 'doctor123')}
               style={{ fontSize: '0.7rem', padding: '0.35rem' }}
             >
               Doctor Portal

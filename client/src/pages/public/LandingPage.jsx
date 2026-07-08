@@ -204,7 +204,16 @@ const LandingPage = () => {
         <div className="doctors-grid">
           {displayedDoctors.map((doc) => (
             <div key={doc._id} className="doctor-card">
-              <img src={doc.profileImage || doc.user?.profileImage || 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=400&q=80'} alt={doc.name} />
+              <div style={{
+                height: '240px',
+                background: 'linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                color: '#2563eb'
+              }}>
+                <Stethoscope size={64} strokeWidth={1.5} />
+              </div>
               <div className="doctor-info">
                 <span className="badge badge-primary" style={{ marginBottom: '0.5rem' }}>{doc.department}</span>
                 <h3 style={{ fontSize: '1.25rem', fontWeight: 700, margin: '0.25rem 0' }}>{doc.name}</h3>

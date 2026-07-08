@@ -179,7 +179,7 @@ const AdminDoctors = () => {
     fontSize: "18px"
   }}
 >
-  {doctor.name.replace("Dr. ", "").charAt(0)}
+  {doc.name.replace("Dr. ", "").charAt(0)}
 </div>
                       <div className="flex flex-col">
                         <span style={{ fontWeight: 600 }}>{doc.name}</span>
