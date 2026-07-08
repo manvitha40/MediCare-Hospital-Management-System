@@ -28,7 +28,21 @@ const Navbar = ({ title }) => {
         
         <div className="flex align-center gap-1">
           {user?.profileImage ? (
-            <img src={user.profileImage} alt={user.name} />
+            <div
+  style={{
+    width: "36px",
+    height: "36px",
+    borderRadius: "50%",
+    backgroundColor: "#7c3aed",
+    color: "#fff",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontWeight: "700"
+  }}
+>
+  {user.name.charAt(0)}
+</div>
           ) : (
             <div 
               style={{ 

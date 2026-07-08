@@ -165,11 +165,22 @@ const AdminDoctors = () => {
                 <tr key={doc._id}>
                   <td>
                     <div className="flex align-center gap-2">
-                      <img 
-                        src={doc.profileImage || 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=100&q=80'} 
-                        alt={doc.name} 
-                        style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover' }}
-                      />
+                      <div
+  style={{
+    width: "48px",
+    height: "48px",
+    borderRadius: "50%",
+    backgroundColor: "#2563eb",
+    color: "#fff",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontWeight: "700",
+    fontSize: "18px"
+  }}
+>
+  {doctor.name.replace("Dr. ", "").charAt(0)}
+</div>
                       <div className="flex flex-col">
                         <span style={{ fontWeight: 600 }}>{doc.name}</span>
                         <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>

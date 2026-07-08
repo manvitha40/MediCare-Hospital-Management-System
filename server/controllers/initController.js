@@ -170,6 +170,14 @@ await Department.insertMany([
   {
     name: "General Medicine",
     description: "General consultation"
+  },
+  {
+    name: "Gynecology",
+    description: "Women health and maternity care"
+  },
+  {
+    name: "ENT",
+    description: "Ear, nose, and throat treatments"
   }
 ]);
 
@@ -521,7 +529,67 @@ await Room.insertMany([
     status: "Available"
   },
   {
+    roomNumber: "103",
+    roomType: "General",
+    status: "Available"
+  },
+  {
+    roomNumber: "104",
+    roomType: "General",
+    status: "Occupied"
+  },
+  {
+    roomNumber: "105",
+    roomType: "General",
+    status: "Maintenance"
+  },
+  {
+    roomNumber: "106",
+    roomType: "General",
+    status: "Available"
+  },
+  {
+    roomNumber: "107",
+    roomType: "General",
+    status: "Occupied"
+  },
+  {
     roomNumber: "201",
+    roomType: "Private",
+    status: "Available"
+  },
+  {
+    roomNumber: "202",
+    roomType: "Semi-Private",
+    status: "Available"
+  },
+  {
+    roomNumber: "203",
+    roomType: "Semi-Private",
+    status: "Occupied"
+  },
+  {
+    roomNumber: "204",
+    roomType: "Semi-Private",
+    status: "Available"
+  },
+  {
+    roomNumber: "205",
+    roomType: "Semi-Private",
+    status: "Maintenance"
+  },
+  {
+    roomNumber: "206",
+    roomType: "Private",
+    status: "Available"
+  },
+  {
+    roomNumber: "207",
+    roomType: "Private",
+    status: "Occupied"
+  },
+  {
+    roomNumber: "208",
     roomType: "Private",
     status: "Available"
   },
@@ -529,6 +597,26 @@ await Room.insertMany([
     roomNumber: "301",
     roomType: "ICU",
     status: "Available"
+  },
+  {
+    roomNumber: "302",
+    roomType: "ICU",
+    status: "Available"
+  },
+  {
+    roomNumber: "303",
+    roomType: "ICU",
+    status: "Occupied"
+  },
+  {
+    roomNumber: "304",
+    roomType: "ICU",
+    status: "Occupied"
+  },
+  {
+    roomNumber: "305",
+    roomType: "ICU",
+    status: "Maintenance"
   }
 ]);
 
@@ -562,6 +650,118 @@ await Medicine.insertMany([
     stock: 600,
     expiryDate: "2029-01-01",
     supplier: "Himalaya"
+  },
+  {
+    name: "Metformin",
+    price: 50,
+    stock: 400,
+    expiryDate: "2028-06-30",
+    supplier: "Cipla"
+  },
+  {
+    name: "Atorvastatin",
+    price: 120,
+    stock: 350,
+    expiryDate: "2027-11-30",
+    supplier: "Sun Pharma"
+  },
+  {
+    name: "Amlodipine",
+    price: 45,
+    stock: 280,
+    expiryDate: "2028-03-31",
+    supplier: "Dr. Reddy's"
+  },
+  {
+    name: "Pantoprazole",
+    price: 75,
+    stock: 500,
+    expiryDate: "2029-02-28",
+    supplier: "Alkem Laboratories"
+  },
+  {
+    name: "Azithromycin",
+    price: 110,
+    stock: 200,
+    expiryDate: "2028-08-31",
+    supplier: "Lupin"
+  },
+  {
+    name: "Losartan",
+    price: 90,
+    stock: 300,
+    expiryDate: "2027-09-30",
+    supplier: "Zydus Cadila"
+  },
+  {
+    name: "Omeprazole",
+    price: 40,
+    stock: 450,
+    expiryDate: "2028-05-31",
+    supplier: "Torrent Pharma"
+  },
+  {
+    name: "Cetirizine",
+    price: 25,
+    stock: 600,
+    expiryDate: "2029-04-30",
+    supplier: "Glenmark"
+  },
+  {
+    name: "Metoprolol",
+    price: 80,
+    stock: 240,
+    expiryDate: "2028-10-31",
+    supplier: "Aurobindo Pharma"
+  },
+  {
+    name: "Gabapentin",
+    price: 150,
+    stock: 150,
+    expiryDate: "2027-12-31",
+    supplier: "Sun Pharma"
+  },
+  {
+    name: "Montelukast",
+    price: 95,
+    stock: 220,
+    expiryDate: "2028-07-31",
+    supplier: "Cipla"
+  },
+  {
+    name: "Atropine",
+    price: 130,
+    stock: 100,
+    expiryDate: "2027-08-31",
+    supplier: "Dr. Reddy's"
+  },
+  {
+    name: "Domperidone",
+    price: 30,
+    stock: 350,
+    expiryDate: "2028-01-31",
+    supplier: "Alkem Laboratories"
+  },
+  {
+    name: "Aspirin",
+    price: 10,
+    stock: 1000,
+    expiryDate: "2029-05-31",
+    supplier: "Zydus Cadila"
+  },
+  {
+    name: "Multivitamin",
+    price: 85,
+    stock: 800,
+    expiryDate: "2029-06-30",
+    supplier: "Himalaya"
+  },
+  {
+    name: "Ranitidine",
+    price: 35,
+    stock: 400,
+    expiryDate: "2028-04-30",
+    supplier: "Torrent Pharma"
   }
 ]);
 
@@ -959,74 +1159,74 @@ for (const appointment of createdAppointments) {
   switch (doctor.department) {
 
     case "Cardiology":
-      testName = ["ECG", "Lipid Profile", "2D Echo"][Math.floor(Math.random()*3)];
+      testName = "ECG";
       result = [
         "Normal ECG",
-        "Mild Hypertension",
-        "Elevated Cholesterol"
+        "Mild Sinus Tachycardia",
+        "Normal sinus rhythm"
       ][Math.floor(Math.random()*3)];
       break;
 
     case "Neurology":
-      testName = ["MRI", "CT Scan", "EEG"][Math.floor(Math.random()*3)];
+      testName = ["MRI", "CT Scan"][Math.floor(Math.random()*2)];
       result = [
         "No Abnormalities",
-        "Migraine Detected",
-        "Minor Nerve Compression"
+        "Mild cerebral atrophy appropriate for age",
+        "Normal study"
       ][Math.floor(Math.random()*3)];
       break;
 
     case "Orthopedics":
-      testName = ["X-Ray", "Bone Density Test", "MRI"];
+      testName = ["X-Ray", "MRI"][Math.floor(Math.random()*2)];
       result = [
-        "Minor Fracture",
-        "Arthritis",
-        "Normal Bones"
+        "No fracture or dislocation noted",
+        "Mild degenerative joint changes",
+        "Normal joint alignment"
       ][Math.floor(Math.random()*3)];
       break;
 
     case "Pediatrics":
-      testName = ["Blood Test", "Urine Test", "CBC"][Math.floor(Math.random()*3)];
+      testName = "Blood Test";
       result = [
-        "Viral Fever",
-        "Normal",
-        "Mild Infection"
+        "Hemoglobin and CBC within normal range",
+        "Normal report",
+        "Mild leukocytosis"
       ][Math.floor(Math.random()*3)];
       break;
 
     case "Dermatology":
-      testName = ["Skin Allergy Test", "Biopsy", "Skin Scraping"][Math.floor(Math.random()*3)];
+      testName = "Blood Test";
       result = [
-        "Fungal Infection",
-        "Allergy Positive",
-        "Normal"
+        "IgE level within limits",
+        "Normal blood counts",
+        "Negative for food allergen panel"
       ][Math.floor(Math.random()*3)];
       break;
 
     case "Gynecology":
-      testName = ["Ultrasound", "Blood Test", "Hormone Test"][Math.floor(Math.random()*3)];
+      testName = "Blood Test";
       result = [
-        "Normal",
-        "PCOS Detected",
-        "Vitamin Deficiency"
+        "Beta hCG negative",
+        "Hormone levels within normal follicular phase limits",
+        "Normal report"
       ][Math.floor(Math.random()*3)];
       break;
 
     case "ENT":
-      testName = ["Hearing Test", "Nasal Endoscopy", "Throat Swab"][Math.floor(Math.random()*3)];
+      testName = "Blood Test";
       result = [
-        "Ear Infection",
-        "Normal",
-        "Sinusitis"
+        "CBC normal, no acute infection",
+        "Normal report",
+        "Negative bacterial swab"
       ][Math.floor(Math.random()*3)];
       break;
 
     default:
-      testName = ["Blood Test", "Thyroid Profile", "Sugar Test"][Math.floor(Math.random()*3)];
+      testName = "Blood Test";
       result = [
-        "Normal",
-        "High Blood Sugar",
-        "Thyroid Normal"
+        "Blood sugar levels normal",
+        "Thyroid stimulating hormone within normal limits",
+        "Lipid profile shows minor elevation in LDL"
       ][Math.floor(Math.random()*3)];
   }
 

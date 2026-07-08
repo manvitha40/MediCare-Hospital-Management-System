@@ -281,11 +281,22 @@ const PatientBookWizard = () => {
                             <div className="flex align-start justify-between" style={{ gap: '1rem' }}>
                               <div className="flex align-start gap-2">
                                 <div style={{ position: 'relative' }}>
-                                  <img 
-                                    src={doc.profileImage || 'https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=100&q=80'} 
-                                    alt={doc.name} 
-                                    style={{ width: '56px', height: '56px', borderRadius: '50%', objectFit: 'cover', border: '2px solid #ffffff', boxShadow: '0 2px 6px rgba(0,0,0,0.1)' }}
-                                  />
+                                  <div
+  style={{
+    width: "48px",
+    height: "48px",
+    borderRadius: "50%",
+    backgroundColor: "#2563eb",
+    color: "#fff",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontWeight: "700",
+    fontSize: "18px"
+  }}
+>
+  {doctor.name.replace("Dr. ", "").charAt(0)}
+</div>
                                   {rank && rank <= 3 && (
                                     <span style={{
                                       position: 'absolute',
