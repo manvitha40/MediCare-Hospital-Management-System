@@ -41,6 +41,32 @@ const PatientProfile = () => {
         <Toast message={toastMessage} type={toastType} onClose={() => setToastMessage('')} />
       )}
 
+      {/* Patient Profile Header */}
+      <div className="card" style={{ marginBottom: '1.5rem', padding: '1.5rem', display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+        <div style={{
+          width: '64px', height: '64px', borderRadius: '50%',
+          background: 'linear-gradient(135deg, #0f766e, #14b8a6)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: '#fff', fontWeight: 800, fontSize: '24px', flexShrink: 0
+        }}>
+          {user?.name?.charAt(0) || 'P'}
+        </div>
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.25rem' }}>
+            <span style={{ fontWeight: 800, fontSize: '1.1rem' }}>{user?.name || 'Patient'}</span>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem', backgroundColor: '#d1fae5', color: '#065f46', fontSize: '0.7rem', fontWeight: 700, padding: '0.15rem 0.5rem', borderRadius: '10px' }}>
+              Patient
+            </span>
+          </div>
+          <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{user?.email || '—'}</span>
+          {profile?.bloodGroup && (
+            <span style={{ marginLeft: '0.75rem', fontSize: '0.75rem', fontWeight: 700, backgroundColor: '#fee2e2', color: '#991b1b', padding: '0.1rem 0.5rem', borderRadius: '8px' }}>
+              {profile.bloodGroup}
+            </span>
+          )}
+        </div>
+      </div>
+
       <form className="card" onSubmit={handleSubmit}>
         <div className="card-header flex align-center gap-1">
           <User size={20} style={{ color: 'var(--primary)' }} />

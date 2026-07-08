@@ -123,14 +123,19 @@ const ReceptionistPatients = () => {
                 <tr key={pat._id}>
                   <td>
                     <div className="flex align-center gap-2">
-                      <img 
-                        src={pat.profileImage || 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=100&q=80'} 
-                        alt={pat.name} 
-                        style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover' }}
-                      />
+                      <div style={{
+                        width: '40px', height: '40px', borderRadius: '50%',
+                        backgroundColor: '#dbeafe', color: '#1d4ed8',
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        fontWeight: 700, fontSize: '16px', flexShrink: 0
+                      }}>
+                        {pat.name?.charAt(0) || 'P'}
+                      </div>
                       <div className="flex flex-col">
                         <span style={{ fontWeight: 600 }}>{pat.name}</span>
-                        <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{pat.email || 'patient@medicare.com'}</span>
+                        <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>
+                          {pat.user?.email || pat.email || '—'}
+                        </span>
                       </div>
                     </div>
                   </td>

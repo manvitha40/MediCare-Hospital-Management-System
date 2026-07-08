@@ -113,7 +113,7 @@ const AdminPatients = () => {
 </div>
                       <div className="flex flex-col">
                         <span style={{ fontWeight: 600 }}>{pat.name}</span>
-                        <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{pat.email || 'patient@medicare.com'}</span>
+                        <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{pat.user?.email || pat.email || '—'}</span>
                       </div>
                     </div>
                   </td>

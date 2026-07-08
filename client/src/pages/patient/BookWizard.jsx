@@ -295,7 +295,7 @@ const PatientBookWizard = () => {
     fontSize: "18px"
   }}
 >
-  {doctor.name.replace("Dr. ", "").charAt(0)}
+  {doc.name.replace("Dr. ", "").charAt(0)}
 </div>
                                   {rank && rank <= 3 && (
                                     <span style={{
