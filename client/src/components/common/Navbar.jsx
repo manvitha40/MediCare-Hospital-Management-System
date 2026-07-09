@@ -27,38 +27,36 @@ const Navbar = ({ title }) => {
         </span>
         
         <div className="flex align-center gap-1">
-          {user?.profileImage ? (
-            <div
-  style={{
-    width: "36px",
-    height: "36px",
-    borderRadius: "50%",
-    backgroundColor: "#7c3aed",
-    color: "#fff",
-    display: "flex",
-    alignItems: "center",
-    justifyContent: "center",
-    fontWeight: "700"
-  }}
->
-  {user.name.charAt(0)}
-</div>
+          {user?.profileImage && !user.profileImage.includes('photo-') && !user.profileImage.includes('default') ? (
+            <img 
+              src={user.profileImage} 
+              alt={user.name} 
+              style={{ width: '40px', height: '40px', borderRadius: '50%', objectFit: 'cover', border: '2px solid var(--border)' }}
+            />
           ) : (
             <div 
               style={{ 
                 width: 40, 
                 height: 40, 
                 borderRadius: '50%', 
-                backgroundColor: 'var(--primary-light)', 
-                color: 'var(--primary)',
+                background: user?.role === 'admin' 
+                  ? 'linear-gradient(135deg, #1e40af, #3b82f6)' 
+                  : user?.role === 'patient' 
+                    ? 'linear-gradient(135deg, #0f766e, #14b8a6)' 
+                    : user?.role === 'doctor'
+                      ? 'linear-gradient(135deg, #7c3aed, #a855f7)'
+                      : 'linear-gradient(135deg, #b45309, #f59e0b)', 
+                color: '#ffffff',
                 display: 'flex',
                 alignItems: 'center',
-                justifyCenter: 'center',
-                border: '2px solid var(--border)',
-                fontWeight: 'bold'
+                justifyContent: 'center',
+                border: '1px solid rgba(255,255,255,0.2)',
+                fontWeight: 'bold',
+                fontSize: '16px',
+                textTransform: 'uppercase'
               }}
             >
-              <UserIcon size={20} />
+              {user?.name ? user.name.replace("Dr. ", "").charAt(0) : 'U'}
             </div>
           )}
           <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '0.25rem' }}>

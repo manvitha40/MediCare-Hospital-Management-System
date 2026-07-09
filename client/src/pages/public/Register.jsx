@@ -156,14 +156,15 @@ const Register = () => {
 
           <div className="form-group">
             <label className="form-label" htmlFor="address">Home Address</label>
-            <input 
+            <textarea 
               className="form-control" 
-              type="text" 
               name="address" 
               id="address" 
               placeholder="123 Main St, City" 
               value={formData.address}
               onChange={handleChange}
+              rows="3"
+              style={{ resize: 'vertical', fontFamily: 'inherit' }}
             />
           </div>
 

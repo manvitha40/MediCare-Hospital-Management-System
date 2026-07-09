@@ -77,13 +77,14 @@ const AdminSettings = () => {
 
         <div className="form-group">
           <label className="form-label">Hospital Address</label>
-          <input 
-            type="text" 
+          <textarea 
             className="form-control" 
             name="address" 
             value={formData.address} 
             onChange={handleChange} 
             required 
+            rows="3"
+            style={{ resize: 'vertical', fontFamily: 'inherit' }}
           />
         </div>
 

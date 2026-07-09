@@ -136,12 +136,13 @@ const PatientProfile = () => {
 
         <div className="form-group">
           <label className="form-label">Home Address</label>
-          <input 
-            type="text" 
+          <textarea 
             className="form-control" 
             name="address" 
             value={formData.address} 
             onChange={handleChange} 
+            rows="3"
+            style={{ resize: 'vertical', fontFamily: 'inherit' }}
           />
         </div>
 
