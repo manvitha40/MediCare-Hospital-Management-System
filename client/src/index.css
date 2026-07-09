@@ -152,7 +152,7 @@ button, input, select, textarea {
 .form-group {
   margin-bottom: 1.25rem;
   display: flex;
-  flex-col: column;
+  flex-direction: column;
   gap: 0.35rem;
 }
 

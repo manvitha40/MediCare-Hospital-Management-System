@@ -27,7 +27,7 @@ const Navbar = ({ title }) => {
         </span>
         
         <div className="flex align-center gap-1">
-          {user?.profileImage && !user.profileImage.includes('photo-') && !user.profileImage.includes('default') ? (
+          {user?.profileImage && (user.profileImage.startsWith('http://') || user.profileImage.startsWith('https://')) ? (
             <img 
               src={user.profileImage} 
               alt={user.name} 

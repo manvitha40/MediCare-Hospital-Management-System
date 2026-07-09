@@ -33,6 +33,27 @@ const ReceptionistSettings = () => {
         <Toast message={toastMessage} type={toastType} onClose={() => setToastMessage('')} />
       )}
 
+      {/* Receptionist Profile Header */}
+      <div className="card" style={{ marginBottom: '1.5rem', padding: '1.5rem', display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+        <div style={{
+          width: '64px', height: '64px', borderRadius: '50%',
+          background: 'linear-gradient(135deg, #b45309, #f59e0b)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: '#fff', fontWeight: 800, fontSize: '24px', flexShrink: 0
+        }}>
+          {user?.name?.charAt(0) || 'R'}
+        </div>
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.25rem' }}>
+            <span style={{ fontWeight: 800, fontSize: '1.1rem' }}>{user?.name || 'Receptionist'}</span>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem', backgroundColor: '#fef3c7', color: '#92400e', fontSize: '0.7rem', fontWeight: 700, padding: '0.15rem 0.5rem', borderRadius: '10px' }}>
+              Receptionist
+            </span>
+          </div>
+          <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{user?.email || '—'}</span>
+        </div>
+      </div>
+
       <form className="card" onSubmit={handleSave}>
         <div className="card-header flex align-center gap-1">
           <Settings size={20} style={{ color: 'var(--primary)' }} />

@@ -57,6 +57,32 @@ const DoctorProfile = () => {
         <Toast message={toastMessage} type={toastType} onClose={() => setToastMessage('')} />
       )}
 
+      {/* Doctor Profile Header */}
+      <div className="card" style={{ marginBottom: '1.5rem', padding: '1.5rem', display: 'flex', alignItems: 'center', gap: '1.25rem' }}>
+        <div style={{
+          width: '64px', height: '64px', borderRadius: '50%',
+          background: 'linear-gradient(135deg, #7c3aed, #a855f7)',
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+          color: '#fff', fontWeight: 800, fontSize: '24px', flexShrink: 0
+        }}>
+          {user?.name ? user.name.replace("Dr. ", "").charAt(0) : 'D'}
+        </div>
+        <div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.25rem' }}>
+            <span style={{ fontWeight: 800, fontSize: '1.1rem' }}>{user?.name || 'Doctor'}</span>
+            <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.2rem', backgroundColor: '#f3e8ff', color: '#6b21a8', fontSize: '0.7rem', fontWeight: 700, padding: '0.15rem 0.5rem', borderRadius: '10px' }}>
+              Doctor
+            </span>
+          </div>
+          <span style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>{user?.email || '—'}</span>
+          {profile?.department && (
+            <span style={{ marginLeft: '0.75rem', fontSize: '0.75rem', fontWeight: 700, backgroundColor: '#eff6ff', color: '#1e40af', padding: '0.15rem 0.5rem', borderRadius: '10px' }}>
+              {profile.department}
+            </span>
+          )}
+        </div>
+      </div>
+
       <form className="card" onSubmit={handleSubmit}>
         <div className="card-header flex align-center gap-1">
           <User size={20} style={{ color: 'var(--primary)' }} />

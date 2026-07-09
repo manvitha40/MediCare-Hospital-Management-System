@@ -43,7 +43,7 @@ const HospitalInfoCard = () => {
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', fontWeight: 700, fontSize: '0.8rem', color: 'var(--primary)', marginBottom: '0.5rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
             <Mail size={13} /> Email
           </div>
-          <div style={{ fontSize: '0.85rem', color: 'var(--text-main)', lineHeight: 1.8, margin: 0 }}>
+          <div style={{ fontSize: '0.85rem', color: 'var(--text-main)', lineHeight: 1.8, margin: 0, wordBreak: 'break-all' }}>
             <div><a href="mailto:info@medicaregeneralhospital.com" style={{ color: 'var(--primary)', textDecoration: 'none' }}>info@medicaregeneralhospital.com</a></div>
             <div><a href="mailto:appointments@medicaregeneralhospital.com" style={{ color: 'var(--primary)', textDecoration: 'none' }}>appointments@medicaregeneralhospital.com</a></div>
             <div><a href="mailto:emergency@medicaregeneralhospital.com" style={{ color: 'var(--danger)', textDecoration: 'none' }}>emergency@medicaregeneralhospital.com</a></div>
