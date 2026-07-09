@@ -426,21 +426,51 @@ POST   /api/reports
 
 # 📸 Application Screenshots
 
-| Landing Page | Login |
-|--------------|-------|
-| ![](screenshots/landing-page.png) | ![](screenshots/login-page.png) |
+## Landing Page
 
-| Admin Dashboard | Doctor Dashboard |
-|-----------------|------------------|
-| ![](screenshots/admin-dashboard.png) | ![](screenshots/doctor-dashboard.png) |
+![Landing Page](screenshots/landing-page.png)
 
-| Receptionist Dashboard | Patient Dashboard |
-|-------------------------|-------------------|
-| ![](screenshots/receptionist-dashboard.png) | ![](screenshots/patient-dashboard.png) |
+---
 
-| Appointments | Billing |
-|--------------|---------|
-| ![](screenshots/appointments.png) | ![](screenshots/billing.png) |
+## Login Page
+
+![Login Page](screenshots/login-page.png)
+
+---
+
+## Admin Dashboard
+
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+---
+
+## Doctor Dashboard
+
+![Doctor Dashboard](screenshots/doctor-dashboard.png)
+
+---
+
+## Receptionist Dashboard
+
+![Receptionist Dashboard](screenshots/receptionist-dashboard.png)
+
+---
+
+## Patient Dashboard
+
+![Patient Dashboard](screenshots/patient-dashboard.png)
+
+---
+
+## Appointments Module
+
+![Appointments](screenshots/appointments.png)
+
+---
+
+## Billing Module
+
+![Billing](screenshots/billing.png)
 
 # 🚀 Future Enhancements
 
